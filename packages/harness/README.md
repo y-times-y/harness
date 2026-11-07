@@ -5,6 +5,9 @@ loop, tool surface and instructions the ytimesy cloud product runs for a single
 agent, with your working directory as the machine and your own API key as the
 model.
 
+Want it hosted, with parallel agents on their own cloud machines, a real browser
+and pull-request automation? That is [ytimesy](https://ytimesy.com).
+
 ```sh
 export ANTHROPIC_API_KEY=...        # or OPENAI_API_KEY, GEMINI_API_KEY, OPENROUTER_API_KEY
 cd your-project
@@ -165,7 +168,8 @@ not change.
 
 The cloud product's web app, its virtual machines, desktop browser, database,
 billing, GitHub integration, delegation to other agents and the review loop.
-They depend on its machines and database and stay closed.
+They depend on its machines and database and stay closed. You can use all of
+them at [ytimesy.com](https://ytimesy.com).
 
 ## Develop
 

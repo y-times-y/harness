@@ -1,6 +1,31 @@
 # ytimesy harness
 
-Two MIT-licensed packages from [ytimesy](https://ytimesy.com).
+The open-source coding agent behind [ytimesy](https://ytimesy.com), the AI
+software engineer in the cloud. Run it on your own computer with your own model
+key, or let ytimesy run it for you.
+
+**[Start building at ytimesy.com](https://ytimesy.com)**
+
+## ytimesy in the cloud
+
+ytimesy runs this harness on cloud machines, so the work happens while you do
+something else:
+
+- **Agents work in parallel**, each on its own machine. A lead agent splits the
+  work and reviews each patch.
+- **Tests in a real browser.**
+- **Fixes failing checks on its own.**
+- **Remembers how you work.**
+- **Screenshots and video in your pull request.**
+- **Bring your own model**, on the same harness.
+
+Already working in Claude Code, Codex or Cursor? In ytimesy, choose "Continue
+your agent session" and run the command it gives you; the `ytimesy` command
+line in this repository moves your session and work in progress to the cloud.
+
+## What is in this repository
+
+Two MIT-licensed packages.
 
 | Package | What it is |
 | --- | --- |

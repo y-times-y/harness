@@ -2,7 +2,8 @@
 
 Continue your local coding-agent sessions (Claude Code, Codex, Cursor, Gemini
 CLI, OpenCode, Pi, Grok) and your work in progress in the cloud, on
-[ytimesy](https://ytimesy.com).
+[ytimesy](https://ytimesy.com), the AI software engineer in the cloud. New to
+ytimesy? [Start building](https://ytimesy.com).
 
 ## Quickstart
 
