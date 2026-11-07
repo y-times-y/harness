@@ -1,0 +1,49 @@
+{
+	"name": "ytimesy",
+	"version": "0.1.1",
+	"description": "Move your local coding-agent sessions (Claude Code, Codex, Cursor, and more) to ytimesy.",
+	"keywords": [
+		"ytimesy",
+		"cli",
+		"coding-agent",
+		"claude-code",
+		"codex",
+		"cursor",
+		"session-handoff"
+	],
+	"type": "module",
+	"bin": {
+		"ytimesy": "dist/ytimesy.mjs"
+	},
+	"files": [
+		"dist/ytimesy.mjs",
+		"README.md",
+		"LICENSE"
+	],
+	"engines": {
+		"node": ">=22.13"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/y-times-y/harness",
+	"scripts": {
+		"build": "node build.mjs",
+		"prepack": "node build.mjs",
+		"test": "vitest run",
+		"typecheck": "tsc --noEmit -p tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/y-times-y/harness.git",
+		"directory": "packages/ytimesy-cli"
+	},
+	"bugs": {
+		"url": "https://github.com/y-times-y/harness/issues"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"esbuild": "0.28.2",
+		"typescript": "^6.0.3",
+		"vitest": "5.0.0",
+		"zod": "4.6.4"
+	}
+}

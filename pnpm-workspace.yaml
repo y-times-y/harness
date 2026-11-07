@@ -1,0 +1,6 @@
+packages:
+  - packages/harness
+  - packages/ytimesy-cli
+
+onlyBuiltDependencies:
+  - esbuild

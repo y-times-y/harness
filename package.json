@@ -1,0 +1,27 @@
+{
+	"name": "ytimesy-harness-workspace",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "pnpm -r build",
+		"test": "vitest run",
+		"typecheck": "pnpm -r typecheck",
+		"lint": "biome check .",
+		"format": "biome check --write ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.13",
+		"@types/node": "^22.10.2",
+		"@types/html-to-text": "9.0.4",
+		"tsx": "4.23.13",
+		"typescript": "^6.0.3",
+		"vitest": "5.0.0",
+		"vscode-jsonrpc": "9.0.3",
+		"web-tree-sitter": "0.25.10",
+		"@repomix/tree-sitter-wasms": "0.1.17"
+	},
+	"packageManager": "pnpm@10.20.0",
+	"engines": {
+		"node": ">=22.13"
+	}
+}

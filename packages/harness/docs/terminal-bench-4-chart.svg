@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="Terminal-Bench 4.0, GPT-6 Astra: score and cost per attempt for ytimesy (xhigh) 58.5% and $7.47, Codex (max) 58.2% and $9.90, Codex (xhigh) 57.9% and $7.12.">
+	<style>
+		text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1a1a1a; }
+		.m { fill: #6b6b6b; font-size: 13px; }
+		.h { font-size: 15px; font-weight: 600; }
+		.v { font-size: 15px; font-weight: 600; }
+		.us { fill: #f0501e; }
+		.ot { fill: #b9b3ab; }
+		.grid { stroke: #e7e2db; stroke-width: 1; }
+		@media (prefers-color-scheme: dark) {
+			text { fill: #f2efe9; }
+			.m { fill: #a7a29a; }
+			.grid { stroke: #3a3733; }
+			.ot { fill: #6f6a63; }
+		}
+	</style>
+	<text x="32" y="34" class="h">Score (percent of tasks solved)</text>
+	<text x="400" y="34" class="h">Cost per attempt</text>
+	<line x1="32" y1="52" x2="368" y2="52" class="grid"/>
+	<line x1="400" y1="52" x2="728" y2="52" class="grid"/>
+
+	<text x="32" y="86" class="m">ytimesy · Astra xhigh</text>
+	<rect x="32" y="94" width="321" height="26" rx="5" class="us"/>
+	<text x="361" y="113" class="v" text-anchor="end" style="fill:#fff">58.5%</text>
+
+	<text x="32" y="156" class="m">Codex · Astra max</text>
+	<rect x="32" y="164" width="320" height="26" rx="5" class="ot"/>
+	<text x="360" y="183" class="v" text-anchor="end" style="fill:#1a1a1a">58.2%</text>
+
+	<text x="32" y="226" class="m">Codex · Astra xhigh</text>
+	<rect x="32" y="234" width="318" height="26" rx="5" class="ot"/>
+	<text x="358" y="253" class="v" text-anchor="end" style="fill:#1a1a1a">57.9%</text>
+
+	<text x="400" y="86" class="m">ytimesy · Astra xhigh</text>
+	<rect x="400" y="94" width="247" height="26" rx="5" class="us"/>
+	<text x="655" y="113" class="v">$7.47</text>
+
+	<text x="400" y="156" class="m">Codex · Astra max</text>
+	<rect x="400" y="164" width="327" height="26" rx="5" class="ot"/>
+	<text x="735" y="183" class="v" text-anchor="end" style="fill:#1a1a1a">$9.90</text>
+
+	<text x="400" y="226" class="m">Codex · Astra xhigh</text>
+	<rect x="400" y="234" width="235" height="26" rx="5" class="ot"/>
+	<text x="643" y="253" class="v">$7.12</text>
+
+	<text x="32" y="300" class="m">Terminal-Bench 4.0 · same model in every row · 66 tasks, five attempts each · differences in score are within noise</text>
+</svg>

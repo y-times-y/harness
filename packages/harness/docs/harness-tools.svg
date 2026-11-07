@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="The lead agent and its eleven tools in four groups: files and shell (read, write, edit, bash), code mode (run_code), subagents (agent, agent_wait, agent_send), web and plan (web_search, web_fetch, update_plan). Below: background commands started from bash."><style>.n{fill:#ffffff;stroke:#dfdfdd}.n-dark{fill:#191918;stroke:#191918}.n-soft{fill:#f2f2f0;stroke:#dfdfdd}.e{fill:none;stroke:#aeaeac;stroke-width:1.25}.e-dash{fill:none;stroke:#aeaeac;stroke-width:1.25;stroke-dasharray:3 3}.ah{fill:#aeaeac}.t{fill:#191918;font:500 14px sans-serif}.t-l{fill:#191918;font:400 13px sans-serif}.t-s{fill:#6e6e6d;font:400 12.5px sans-serif}.t-x{fill:#a0a09e;font:400 12px sans-serif}.t-m{fill:#191918;font:400 12.5px monospace}.t-inv{fill:#fafaf8;font:500 14px sans-serif}.t-inv-s{fill:#b6b6b5;font:400 12.5px sans-serif}.code{fill:#191918;font:11.5px monospace;white-space:pre}.bg{fill:#f2f2f0;stroke:#dfdfdd}@media (prefers-color-scheme: dark){.n{fill:#1c1c1b;stroke:#2e2e2c}.n-dark{fill:#ecebe7;stroke:#ecebe7}.n-soft{fill:#1c1c1a;stroke:#2e2e2c}.e{fill:none;stroke:#5d5d5b;stroke-width:1.25}.e-dash{fill:none;stroke:#5d5d5b;stroke-width:1.25;stroke-dasharray:3 3}.ah{fill:#5d5d5b}.t{fill:#ecebe7;font:500 14px sans-serif}.t-l{fill:#ecebe7;font:400 13px sans-serif}.t-s{fill:#9a9996;font:400 12.5px sans-serif}.t-x{fill:#6a6a68;font:400 12px sans-serif}.t-m{fill:#ecebe7;font:400 12.5px monospace}.t-inv{fill:#141413;font:500 14px sans-serif}.t-inv-s{fill:#555453;font:400 12.5px sans-serif}.code{fill:#ecebe7;font:11.5px monospace;white-space:pre}.bg{fill:#1c1c1a;stroke:#2e2e2c}}</style><rect x="0.5" y="0.5" width="759" height="399" rx="14" class="bg"/>
+			<defs><marker id="a1" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L8,4 L0,8 z" class="ah"/></marker></defs>
+			<!-- lead -->
+			<rect x="280" y="40" width="200" height="48" rx="12" class="n-dark"/>
+			<text x="380" y="69" class="t-inv" text-anchor="middle">Lead agent</text>
+			<!-- connectors -->
+			<path d="M380 88 V 120" class="e"/>
+			<path d="M112 136 V 128 Q 112 120 120 120 H 640 Q 648 120 648 128 V 136" class="e"/>
+			<path d="M291 120 V 136 M469 120 V 136" class="e"/>
+			<!-- tool groups -->
+			<g>
+				<rect x="32" y="136" width="160" height="152" rx="10" class="n"/>
+				<text x="48" y="162" class="t">Files and shell</text>
+				<text x="48" y="190" class="t-m">read</text><text x="48" y="214" class="t-m">write</text><text x="48" y="238" class="t-m">edit</text><text x="48" y="262" class="t-m">bash</text>
+			</g>
+			<g>
+				<rect x="211" y="136" width="160" height="152" rx="10" class="n"/>
+				<text x="227" y="162" class="t">Code mode</text>
+				<text x="227" y="190" class="t-m">run_code</text>
+				<text x="227" y="218" class="t-s">one program calls any</text>
+				<text x="227" y="236" class="t-s">of the other tools,</text>
+				<text x="227" y="254" class="t-s">up to 40 per program</text>
+			</g>
+			<g opacity="0.42">
+				<rect x="389" y="136" width="160" height="152" rx="10" class="n"/>
+				<text x="405" y="162" class="t">Subagents</text>
+				<text x="405" y="190" class="t-m">agent</text><text x="405" y="214" class="t-m">agent_wait</text><text x="405" y="238" class="t-m">agent_send</text>
+				<text x="405" y="266" class="t-s">start · collect · stop</text><text x="405" y="282" class="t-x">hosted product only</text>
+			</g>
+			<g>
+				<rect x="568" y="136" width="160" height="152" rx="10" class="n"/>
+				<text x="584" y="162" class="t">Web and plan</text>
+				<text x="584" y="190" class="t-m">web_search</text><text x="584" y="214" class="t-m">web_fetch</text><text x="584" y="238" class="t-m">update_plan</text>
+			</g>
+			<!-- background commands, started from bash -->
+			<path d="M112 288 V 320" class="e" marker-end="url(#a1)"/>
+			<text x="122" y="309" class="t-x">background</text>
+			<rect x="32" y="320" width="696" height="56" rx="10" class="n-soft"/>
+			<text x="48" y="344" class="t">Background commands</text>
+			<text x="48" y="364" class="t-s">builds, tests, servers keep running · the lead keeps working and is told when each one finishes</text>
+		</svg>

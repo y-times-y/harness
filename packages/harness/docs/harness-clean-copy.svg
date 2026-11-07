@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 184" role="img" aria-label="The workspace has many files; only tracked files and the declared outputs are copied to a clean place; they are run with the documented command; the result goes back to the lead."><style>.n{fill:#ffffff;stroke:#dfdfdd}.n-dark{fill:#191918;stroke:#191918}.n-soft{fill:#f2f2f0;stroke:#dfdfdd}.e{fill:none;stroke:#aeaeac;stroke-width:1.25}.e-dash{fill:none;stroke:#aeaeac;stroke-width:1.25;stroke-dasharray:3 3}.ah{fill:#aeaeac}.t{fill:#191918;font:500 14px sans-serif}.t-l{fill:#191918;font:400 13px sans-serif}.t-s{fill:#6e6e6d;font:400 12.5px sans-serif}.t-x{fill:#a0a09e;font:400 12px sans-serif}.t-m{fill:#191918;font:400 12.5px monospace}.t-inv{fill:#fafaf8;font:500 14px sans-serif}.t-inv-s{fill:#b6b6b5;font:400 12.5px sans-serif}.code{fill:#191918;font:11.5px monospace;white-space:pre}.bg{fill:#f2f2f0;stroke:#dfdfdd}@media (prefers-color-scheme: dark){.n{fill:#1c1c1b;stroke:#2e2e2c}.n-dark{fill:#ecebe7;stroke:#ecebe7}.n-soft{fill:#1c1c1a;stroke:#2e2e2c}.e{fill:none;stroke:#5d5d5b;stroke-width:1.25}.e-dash{fill:none;stroke:#5d5d5b;stroke-width:1.25;stroke-dasharray:3 3}.ah{fill:#5d5d5b}.t{fill:#ecebe7;font:500 14px sans-serif}.t-l{fill:#ecebe7;font:400 13px sans-serif}.t-s{fill:#9a9996;font:400 12.5px sans-serif}.t-x{fill:#6a6a68;font:400 12px sans-serif}.t-m{fill:#ecebe7;font:400 12.5px monospace}.t-inv{fill:#141413;font:500 14px sans-serif}.t-inv-s{fill:#555453;font:400 12.5px sans-serif}.code{fill:#ecebe7;font:11.5px monospace;white-space:pre}.bg{fill:#1c1c1a;stroke:#2e2e2c}}</style><rect x="0.5" y="0.5" width="759" height="183" rx="14" class="bg"/>
+			<defs><marker id="a5" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L8,4 L0,8 z" class="ah"/></marker></defs>
+			<rect x="32" y="36" width="192" height="112" rx="10" class="n"/>
+			<text x="48" y="64" class="t">Workspace</text>
+			<text x="48" y="90" class="t-m">solve.py</text>
+			<text x="48" y="110" class="t-m" style="opacity:.42">scratch.py  cache/</text>
+			<text x="48" y="130" class="t-m" style="opacity:.42">notes.txt  build/</text>
+			<path d="M224 92 H 272" class="e" marker-end="url(#a5)"/>
+			<text x="248" y="82" class="t-x" text-anchor="middle">--files</text>
+			<rect x="276" y="36" width="192" height="112" rx="10" class="n"/>
+			<text x="292" y="64" class="t">Clean copy</text>
+			<text x="292" y="90" class="t-m">solve.py</text>
+			<text x="292" y="130" class="t-s">tracked files + outputs</text>
+			<path d="M468 92 H 516" class="e" marker-end="url(#a5)"/>
+			<text x="492" y="82" class="t-x" text-anchor="middle">run</text>
+			<rect x="520" y="36" width="208" height="112" rx="10" class="n-dark"/>
+			<text x="536" y="64" class="t-inv">Result to the lead</text>
+			<text x="536" y="90" class="t-inv-s">output and exit code of</text>
+			<text x="536" y="108" class="t-inv-s">the documented command</text>
+		</svg>
