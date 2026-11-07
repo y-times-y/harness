@@ -20,9 +20,9 @@ answer to stdout.
 
 ## Benchmark
 
-![ytimesy scores 58.5% on Terminal-Bench 4.0 with GPT-6 Astra xhigh, against Codex at 58.2% (Astra max) and 57.9% (Astra xhigh)](docs/terminal-bench-4.jpg)
+![ytimesy scores 58.5% on Terminal-Bench 4.0 with GPT-6 Astra xhigh, against Codex at 58.2% (Astra max) and 57.9% (Astra xhigh)](https://raw.githubusercontent.com/y-times-y/harness/main/packages/harness/docs/terminal-bench-4.jpg)
 
-![Score and cost per attempt on Terminal-Bench 4.0](docs/terminal-bench-4-chart.svg)
+![Score and cost per attempt on Terminal-Bench 4.0](https://raw.githubusercontent.com/y-times-y/harness/main/packages/harness/docs/terminal-bench-4-chart.svg)
 
 Terminal-Bench 4.0, GPT-6 Astra in every column, all 66 tasks, five attempts
 each. Small figures are 95% intervals.
@@ -51,7 +51,7 @@ configuration and has not been scored on the benchmark separately.
 
 ## How it works
 
-![The lead agent and its tools: files and shell, code mode, subagents and web and plan, with background commands below](docs/harness-tools.svg)
+![The lead agent and its tools: files and shell, code mode, subagents and web and plan, with background commands below](https://raw.githubusercontent.com/y-times-y/harness/main/packages/harness/docs/harness-tools.svg)
 
 One lead agent works on your task with a small set of tools: `read`, `write`,
 `edit` and `bash`, `run_code`, `web_fetch` and `update_plan`, plus the
@@ -60,14 +60,14 @@ background from `bash`; the agent is told when each one finishes. The dimmed
 Subagents box is the hosted product's delegation, which this package does not
 include.
 
-![A run_code program that runs one bash command and four file reads in parallel and returns one result](docs/harness-code-mode.svg)
+![A run_code program that runs one bash command and four file reads in parallel and returns one result](https://raw.githubusercontent.com/y-times-y/harness/main/packages/harness/docs/harness-code-mode.svg)
 
 With `run_code` the agent writes one short JavaScript program that calls its
 other tools, runs the independent calls in parallel and gets back a single
 result. This is a real program from one of ytimesy's runs: one command and four
 file reads in one model call.
 
-![Only tracked files and declared outputs are copied to a clean place and run with the documented command](docs/harness-clean-copy.svg)
+![Only tracked files and declared outputs are copied to a clean place and run with the documented command](https://raw.githubusercontent.com/y-times-y/harness/main/packages/harness/docs/harness-clean-copy.svg)
 
 Before finishing, the agent can run `ytimesy-check`. It copies only what is
 delivered (the Git-tracked files and declared outputs) into a clean environment

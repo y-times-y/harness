@@ -1,6 +1,6 @@
 {
 	"name": "@ytimesy/harness",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "The ytimesy coding agent, runnable on your own computer with your own API key.",
 	"license": "MIT",
 	"type": "module",
@@ -57,5 +57,8 @@
 	},
 	"bugs": {
 		"url": "https://github.com/y-times-y/harness/issues"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
