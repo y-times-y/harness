@@ -8,6 +8,9 @@ model.
 Want it hosted, with parallel agents on their own cloud machines, a real browser
 and pull-request automation? That is [ytimesy](https://ytimesy.com).
 
+Questions, ideas or benchmark results of your own? [Join the ytimesy
+Discord](https://discord.gg/Ks3frvJVUQ).
+
 ```sh
 export ANTHROPIC_API_KEY=...        # or OPENAI_API_KEY, GEMINI_API_KEY, OPENROUTER_API_KEY
 cd your-project
@@ -185,6 +188,12 @@ infrastructure packages, or reads `process.env` outside an allowlist.
 `src/self-contained.test.ts` bundles every file and fails if anything outside
 this package (and the CLI's wire contract) is reached or an npm package is not
 declared.
+
+## Community
+
+Come talk to us and other people building with the harness on
+[Discord](https://discord.gg/Ks3frvJVUQ): questions, bug reports, ideas and
+your own runs are all welcome.
 
 ## License
 
