@@ -4,7 +4,7 @@ The open-source coding agent behind [ytimesy](https://ytimesy.com), the AI
 software engineer in the cloud. Run it on your own computer with your own model
 key, or let ytimesy run it for you.
 
-**[Start building at ytimesy.com](https://ytimesy.com)**
+**[Start building at ytimesy.com](https://ytimesy.com)** · **[Join us on Discord](https://discord.gg/Ks3frvJVUQ)**
 
 ## ytimesy in the cloud
 
